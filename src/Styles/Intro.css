@@ -1,0 +1,35 @@
+.IN-bg {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-size : 100%;
+    min-height      : 90vh;
+    color           : white;
+}
+
+.IN-headName {
+    background-color: rgba(59, 59, 59, 0.603);
+    display         : flex;
+    justify-content : center;
+    color           : white;
+}
+
+.button_create {
+    border          : 2px solid #24b4fb;
+    background-color: #24b4fb;
+    border-radius   : 0.9em;
+    padding         : 0.8em 1.2em 0.8em 1em;
+    transition      : all ease-in-out 0.2s;
+    font-size       : 16px;
+}
+
+.button_create span {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    color          : #fff;
+    font-weight    : 600;
+}
+
+.button_create:hover {
+    background-color: #0071e2;
+}
+
