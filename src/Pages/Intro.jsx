@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from 'react'
 import Footer from '../Components/Footer/Footer'
-import Type from '../Components/Type'
 import '../Styles/Intro.css'
 import { Link } from 'react-router-dom';
 import { Notes } from './../Context/APIContext';
@@ -19,7 +18,7 @@ export default function Intro(props) {
 
     return (
         <>
-            <div className='IN-bg '>
+            
                 
                 <div className='IN-body text-center mt-5'>
                     {
@@ -50,7 +49,7 @@ export default function Intro(props) {
                         </>
                     }
                 </div>
-            </div>
+            
 
             <div className=''>
                 <Footer />
