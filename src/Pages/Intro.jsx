@@ -20,11 +20,7 @@ export default function Intro(props) {
     return (
         <>
             <div className='IN-bg '>
-                <div className='IN-headName '>
-                    <h1>
-                        <Type />
-                    </h1>
-                </div>
+                
                 <div className='IN-body text-center mt-5'>
                     {
                         props.userData ? <>
