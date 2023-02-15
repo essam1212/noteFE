@@ -18,9 +18,9 @@ export default function Intro(props) {
 
     return (
         <>
-            
+            <div className='IN-bg '>
                 
-                <div className='IN-body text-center mt-5'>
+                <div className='IN-body text-center pt-5'>
                     {
                         props.userData ? <>
                             <p className=' text-black fs-2 fw-bold'> Hello, <span className=' text-black fs-1'>{userName.userName}</span></p>
@@ -49,7 +49,7 @@ export default function Intro(props) {
                         </>
                     }
                 </div>
-            
+            </div>
 
             <div className=''>
                 <Footer />
